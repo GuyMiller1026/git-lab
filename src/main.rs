@@ -11,3 +11,4 @@ fn main() {
 
     report::print_report(party, days, food);
 }
+
