@@ -2,7 +2,7 @@ mod report;
 mod supplies;
 
 fn main() {
-    println!("Oregon Trail Supply Check");
+    println!("Oregon Trail Supply Checks");
 
     let party: u32 = 4;
     let days: u32 = 30;
@@ -11,3 +11,4 @@ fn main() {
 
     report::print_report(party, days, food);
 }
+
